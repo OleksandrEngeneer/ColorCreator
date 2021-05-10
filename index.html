@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ColorCreator</title>
+</head>
+<body>
+        <header>
+                <p class="topic">Creator colors</p>
+        </header>
+    <p id="out"></p>
+    <p id="out2"></p>
+    <div class="conteiner">
+        <form action="" method="GET" onsubmit=" return checkForm(event)">
+                <p class="head">Create new color</p><br>
+                <span class="names">Color: </span><span class="wrongname"></span><br>
+                <input class="input_name" type="text" name="color" placeholder="Enter a name of a color..." required><br>
+                <span class="names">Type: </span><br>
+                <select name="type" class="selected">
+                        <option value="RGB" >RGB</option>
+                        <option value="RGBA" >RGBA</option>
+                        <option value="HEX" >HEX</option>
+                      </select><br>
+                <span class="names">Code: </span><span class="wrongcode"></span><br>
+                <input class="input_code" type="text" name="code" required><br>
+                <input class="input_save" type="submit" name="color" value="save">
+        </form>
+        <div class="box"></div>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+</html>

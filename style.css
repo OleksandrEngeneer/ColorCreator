@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+body {
+  font-family: sans-serif;
+}
+.conteiner {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  height: 1000px;
+  padding: 20px;
+  background-color: #fffacd;
+}
+form {
+  height: 300px;
+  margin: 50px;
+}
+input,
+select {
+  width: 300px;
+  margin-bottom: 40px;
+}
+.head {
+  font-weight: bold;
+  font-size: 20px;
+}
+.names,
+.wrongname,
+.wrongcode {
+  font-weight: bold;
+}
+.divColor {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 150px;
+  height: 110px;
+  margin: 10px;
+  border: 2px black solid;
+}
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+  padding: 20px;
+}
+header {
+  height: 80px;
+  background-color: #e0f2f7;
+}
+.topic {
+  margin: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
